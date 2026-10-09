@@ -1,0 +1,77 @@
+# Unity-generated directories (also applies to nested projects under game/).
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Bb]uild/
+[Bb]uilds/
+[Cc]rashReports/
+
+# Generated IDE projects and local editor state. Keep source/plugin DLLs.
+.vs/
+.idea/
+.vscode/
+.gradle/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+*.csproj.meta
+*.sln.meta
+*.slnx.meta
+*.pidb.meta
+
+# Local Unity diagnostics and generated IDE integration.
+sysinfo.txt
+mono_crash.*
+**/[Aa]ssets/**/[Ee]ditor/[Jj]et[Bb]rains*/
+**/[Aa]ssets/**/[Ee]ditor/[Jj]et[Bb]rains*.meta
+
+# DCC autosaves, not the editable source assets.
+*.blend[0-9]*
+*.blend[0-9]*.meta
+*.swp
+*.swo
+*~
+
+# Deliberate local-only destinations; keep required runtime assets elsewhere.
+/backups/
+/external/
+/releases/
+/captures/
+
+# Operating system files.
+.DS_Store
+.DS_Store.meta
+._*
+Thumbs.db
+Thumbs.db.meta
+Desktop.ini
+Desktop.ini.meta
+
+# Secrets and Unity license material. Example configs must contain no secrets.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.ulf
+*.alf
+
+# Never blanket-ignore *.meta, *.asset, *.dll, Packages, or ProjectSettings.
+# Ignoring a path does not remove it from existing Git history.
